@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | E-Online</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                E-Online<span>.</span>
+            </a>
+
+            <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#categories">Category</a></li>
+                <li><a href="index.html#courses">Courses</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+            <a href="contact.html" class="btn">Sign Up</a>
+
+        </nav>
+    </header>
+
+
+    <!-- Contact Heading -->
+    <section class="page-heading">
+
+        <h1>Contact <span>Us</span></h1>
+
+        <p>Have any questions? Get in touch with us.</p>
+
+    </section>
+
+
+    <!-- Contact Form -->
+    <section class="contact-section">
+
+        <form id="contactForm">
+
+            <h2>Send Us a Message</h2>
+
+            <label for="name">Full Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+
+            <small id="nameError"></small>
+
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <small id="emailError"></small>
+
+
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="Enter subject" required>
+
+            <small id="subjectError"></small>
+
+
+            <label for="message">Message</label>
+            <textarea id="message" rows="5"
+                placeholder="Enter your message" required></textarea>
+
+            <small id="messageError"></small>
+
+
+            <button type="submit" class="btn">
+                Send Message
+            </button>
+
+            <p id="formStatus"></p>
+
+        </form>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <h2>E-Online.</h2>
+
+        <p>Learn Today, Lead Tomorrow.</p>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <p>© <span id="year"></span> E-Online. All Rights Reserved.</p>
+
+    </footer>
+
+</body>
+</html>
